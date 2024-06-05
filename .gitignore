@@ -1,0 +1,8 @@
+mybrands-backend
+venv
+lib64
+lib
+bin/python
+bin/python3
+bin/python3.10
+.env

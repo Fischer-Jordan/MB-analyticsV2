@@ -1,0 +1,49 @@
+SUBJECT,PREDICTION,CONFIDENCE_SPAM,CONFIDENCE_INVOICE,CONFIDENCE_DISCOUNT,CONFIDENCE_PROMOTION
+Billing Statement for March from PetPalace,invoice,4.96E-05,0.989470312,0.000114464,0.000432155
+Your Invoice is Ready from AutoZone,invoice,0.000507034,0.996395493,0.000114091,0.002464572
+Get Ready for Summer: Must-Have Essentials,promotion,0.001619007,0.005317689,0.000638388,0.989620334
+Fresh Finds: New Products You’ll Love,promotion,0.000760508,0.005049275,0.000585201,0.992436433
+Grab Your 35% Price Drop on Exclusive Items,discount,0.987883589,0.000917059,0.000122692,0.000354377
+Don't Miss Out on 20% Savings Today Only!,discount,8.48E-05,2.33E-05,0.997038897,1.74E-05
+Just Arrived: Innovative Products for You,promotion,0.000843782,0.005511902,0.000586194,0.988585395
+Invoice Notification from TravelNest,invoice,0.001446842,0.983014609,0.000153557,0.005252764
+Be the First to Try Our New Releases,spam,0.543947671,0.00534704,0.00038053,0.47842523
+Fresh Finds: New Products You’ll Love,promotion,0.000760508,0.005049275,0.000585201,0.992436433
+Billing Statement for March from PetPalace,invoice,4.96E-05,0.989470312,0.000114464,0.000432155
+Payment Receipt Attached from TravelNest,invoice,0.001175686,0.983385875,0.000132936,0.004659075
+Your Purchase Receipt from HomeComfort,invoice,0.002336704,0.992519333,0.00011511,0.003511247
+Special Gift Inside Just for You,spam,0.956500933,0.003217863,0.000229416,0.009093741
+You Have Unread Messages,spam,0.99200987,0.004850287,0.000238654,0.011068741
+Discover Our Newest Collection: Just Launched!,promotion,7.60E-05,0.001832191,0.000268685,0.997791936
+You've Won a Million Dollars!,spam,9.23683E+15,0.003165509,0.00016808,0.009414649
+"Enjoy Huge Savings: Buy One, Get One Free",discount,6.76689E-05,0.003517443,0.922433768,0.002917623
+Fresh Finds: New Products You’ll Love,promotion,0.000760508,0.005049275,0.000585201,0.992436433
+New in Store: Explore Our Latest Additions,promotion,8.41E-05,0.002924424,0.00057842,0.996355566
+Get Ready for Half Price Sale,discount,3.43453E-07,0.001586219,0.903091519,0.001724322
+Top Picks for the Season: Explore Now!,promotion,0.004236957,0.003996591,0.000599239,0.981836354
+Your Monthly Subscription Invoice from GadgetWorld,invoice,0.001209287,0.992333408,0.000141162,0.005041745
+Unlock the Latest Trends: Shop Now,promotion,0.001069676,0.003990154,0.000590183,0.993964116
+Invoice Notification from TravelNest,invoice,0.001446842,0.983014609,0.000153557,0.005252764
+Claim Your Free Vacation Now!,spam,0.009010509,0.002737217,0.000269103,0.03762323
+Invoice Due: Please Pay Now to TravelNest,invoice,0.00192591,0.983925817,0.000160907,0.005605358
+Unbeatable Deals: Up to 70% Off Best Sellers,discount,0.902352503,0.00380226,0.000142123,0.002065311
+Last Chance to Win Big!,spam,0.003457558,0.003298049,0.000172789,0.002202472
+Your Monthly Subscription Invoice from GadgetWorld,invoice,0.001209287,0.992333408,0.000141162,0.005041745
+Get Ready for Summer: Must-Have Essentials,promotion,0.001619007,0.005317689,0.000638388,0.989620334
+Exclusive Offer Just for You,spam,0.003272042,0.003015599,0.000224189,0.004300516
+Your Monthly Subscription Invoice from GadgetWorld,invoice,0.001209287,0.992333408,0.000141162,0.005041745
+Unbeatable Deals: Up to 70% Off Best Sellers,discount,0.902352503,0.00380226,0.000142123,0.002065311
+Don't Miss Out on 20% Savings Today Only!,discount,0.997038897,2.33E-05,8.48E-05,1.74E-05
+Just Arrived: Innovative Products for You,promotion,0.000843782,0.005511902,0.000586194,0.988585395
+Exclusive Offer Just for You,spam,0.003272042,0.003015599,0.000224189,0.004300516
+Exclusive Sneak Peek: Upcoming Product Line,promotion,0.000716335,0.004300973,0.000583764,0.993722594
+Urgent: Update Your Account Information,spam,9.11E-05,0.001807611,0.000193576,0.001356296
+Exclusive Sneak Peek: Upcoming Product Line,promotion,0.000716335,0.004300973,0.000583764,0.993722594
+Incredible Offers: Save 25% on Holiday Specials,discount,0.890763763,0.004298152,0.000142339,0.001284223
+Payment Receipt Attached from TravelNest,invoice,0.001175686,0.983385875,0.000132936,0.004659075
+You've Won a Million Dollars!,spam,0.002368327,0.003165509,0.00016808,0.009414649
+Important: Verify Your Identity,spam,6.12E-05,0.003603409,0.000213965,0.004849965
+Act Now: Limited Time Only,discount,0.204187597,0.009110241,0.003588696,0.333239748
+Claim Your Free Vacation Now!,spam,0.009010509,0.002737217,0.000269103,0.03762323
+Order Placed Successfully with FashionHub,invoice,0.000904641,0.993615252,0.000121014,0.004421743
+Urgent: Update Your Account Information,spam,9.11E-05,0.001807611,0.000193576,0.001356296

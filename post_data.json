@@ -1,0 +1,274 @@
+
+    [
+        {
+            "purchase_history": {
+                "username": "swathi@gmail.com",
+                "purchased_brands": ["Nike"],
+                "hashtags": ["fitness", "running", "sports"],
+                "items": ["Running Shoes", "Sports Bra", "Yoga Pants"],
+                "caption": "Ready for my workout!",
+                "url": "https://nike.com",
+                "brand_name": "Nike",
+                "item_name": "Running Shoes",
+                "price": "79.99"
+            }
+        },
+        {
+            "purchase_history": {
+                "username": "swathi@gmail.com",
+                "purchased_brands": ["Apple"],
+                "hashtags": ["technology", "gadgets"],
+                "items": ["Smartphone", "Smartwatch", "Wireless Earbuds"],
+                "caption": "Tech upgrades!",
+                "url": "https://apple.com",
+                "brand_name": "Apple",
+                "item_name": "Smartphone",
+                "price": "999.99"
+            }
+        },
+            {
+                "purchase_history": {
+                    "username": "param@gmail.com",
+                    "purchased_brands": ["Sony"],
+                    "hashtags": ["music", "audio", "sound"],
+                    "items": ["Headphones", "Speakers", "Soundbar"],
+                    "caption": "Music vibes 🎶",
+                    "url": "https://sony.com",
+                    "brand_name": "Sony",
+                    "item_name": "Headphones",
+                    "price": "199.99"
+                }
+            },
+            {
+                "purchase_history": {
+                    "username": "param@gmail.com",
+                    "purchased_brands": ["Nike"],
+                    "hashtags": ["sports", "fitness", "training"],
+                    "items": ["Running Shoes", "Training Gear", "Gym Bag"],
+                    "caption": "Training day essentials!",
+                    "url": "https://nike.com",
+                    "brand_name": "Nike",
+                    "item_name": "Running Shoes",
+                    "price": "89.99"
+                }
+            },
+                {
+                    "purchase_history": {
+                        "username": "khushi@gmail.com",
+                        "purchased_brands": ["Samsung"],
+                        "hashtags": ["appliances", "home", "kitchen"],
+                        "items": ["Refrigerator", "Washing Machine", "Microwave Oven"],
+                        "caption": "New appliances for my home!",
+                        "url": "https://samsung.com",
+                        "brand_name": "Samsung",
+                        "item_name": "Refrigerator",
+                        "price": "1499.99"
+                    }
+                },
+                {
+                    "purchase_history": {
+                        "username": "khushi@gmail.com",
+                        "purchased_brands": ["Amazon Basics"],
+                        "hashtags": ["electronics", "home", "gadgets"],
+                        "items": ["Coffee Maker", "Electric Kettle", "Air Purifier"],
+                        "caption": "Morning essentials ☕",
+                        "url": "https://amazon.com",
+                        "brand_name": "Amazon Basics",
+                        "item_name": "Coffee Maker",
+                        "price": "29.99"
+                    }
+                },
+                
+                    {
+                        "purchase_history": {
+                            "username": "om@gmail.com",
+                            "purchased_brands": ["Nike"],
+                            "hashtags": ["sports", "fitness", "training"],
+                            "items": ["Running Shoes", "Training Gear", "Compression Shorts"],
+                            "caption": "Training day essentials!",
+                            "url": "https://nike.com",
+                            "brand_name": "Nike",
+                            "item_name": "Running Shoes",
+                            "price": "89.99"
+                        }
+                    },
+                    {
+                        "purchase_history": {
+                            "username": "om@gmail.com",
+                            "purchased_brands": ["Samsung"],
+                            "hashtags": ["electronics", "home", "gadgets"],
+                            "items": ["Smart TV", "Home Theater System", "Bluetooth Speaker"],
+                            "caption": "Movie night setup 🎥",
+                            "url": "https://samsung.com",
+                            "brand_name": "Samsung",
+                            "item_name": "Smart TV",
+                            "price": "999.99"
+                        }
+                    },
+                    
+                        {
+                            "purchase_history": {
+                                "username": "boaz@gmail.com",
+                                "purchased_brands": ["Nike"],
+                                "hashtags": ["sports", "fitness", "training"],
+                                "items": ["Running Shoes", "Training Gear", "Sweatpants"],
+                                "caption": "Training day essentials!",
+                                "url": "https://nike.com",
+                                "brand_name": "Nike",
+                                "item_name": "Running Shoes",
+                                "price": "89.99"
+                            }
+                        },
+                        {
+                            "purchase_history": {
+                                "username": "boaz@gmail.com",
+                                "purchased_brands": ["Apple"],
+                                "hashtags": ["technology", "gadgets"],
+                                "items": ["Smartphone", "Smartwatch", "Wireless Charger"],
+                                "caption": "Excited about my new gadgets!",
+                                "url": "https://apple.com",
+                                "brand_name": "Apple",
+                                "item_name": "Smartphone",
+                                "price": "999.99"
+                            }
+                        },
+                        
+                            {
+                                "purchase_history": {
+                                    "username": "anthony@gmail.com",
+                                    "purchased_brands": ["Nike"],
+                                    "hashtags": ["sports", "fitness", "training"],
+                                    "items": ["Running Shoes", "Training Gear", "Gym Shorts"],
+                                    "caption": "Training day essentials!",
+                                    "url": "https://nike.com",
+                                    "brand_name": "Nike",
+                                    "item_name": "Running Shoes",
+                                    "price": "89.99"
+                                }
+                            },
+                            {
+                                "purchase_history": {
+                                    "username": "anthony@gmail.com",
+                                    "purchased_brands": ["Sony"],
+                                    "hashtags": ["music", "audio", "sound"],
+                                    "items": ["Headphones", "Speakers", "Bluetooth Earbuds"],
+                                    "caption": "Music vibes 🎶",
+                                    "url": "https://sony.com",
+                                    "brand_name": "Sony",
+                                    "item_name": "Headphones",
+                                    "price": "199.99"
+                                }
+                            },
+                            
+                                {
+                                    "purchase_history": {
+                                        "username": "swathi@gmail.com",
+                                        "purchased_brands": ["MAC"],
+                                        "hashtags": ["makeup", "beauty", "cosmetics"],
+                                        "items": ["Lipstick", "Foundation", "Eyeshadow Palette"],
+                                        "caption": "Glam squad ready!",
+                                        "url": "https://maccosmetics.com",
+                                        "brand_name": "MAC",
+                                        "item_name": "Lipstick",
+                                        "price": "24.99"
+                                    }
+                                },
+                                {
+                                    "purchase_history": {
+                                        "username": "swathi@gmail.com",
+                                        "purchased_brands": ["Starbucks"],
+                                        "hashtags": ["coffee", "cafe", "morning"],
+                                        "items": ["Espresso", "Latte", "Cappuccino"],
+                                        "caption": "Coffee lover's paradise!",
+                                        "url": "https://starbucks.com",
+                                        "brand_name": "Starbucks",
+                                        "item_name": "Espresso",
+                                        "price": "3.99"
+                                    }
+                                },
+                                
+                                    {
+                                        "purchase_history": {
+                                            "username": "param@gmail.com",
+                                            "purchased_brands": ["Revlon"],
+                                            "hashtags": ["makeup", "beauty", "cosmetics"],
+                                            "items": ["Mascara", "Eyeliner", "Blush"],
+                                            "caption": "Makeup game strong!",
+                                            "url": "https://revlon.com",
+                                            "brand_name": "Revlon",
+                                            "item_name": "Mascara",
+                                            "price": "12.99"
+                                        }
+                                    },
+                                    {
+                                        "purchase_history": {
+                                            "username": "param@gmail.com",
+                                            "purchased_brands": ["Dominos"],
+                                            "hashtags": ["food", "pizza", "dinner"],
+                                            "items": ["Pepperoni Pizza", "Margherita Pizza", "Garlic Bread"],
+                                            "caption": "Pizza night is the best night!",
+                                            "url": "https://dominos.com",
+                                            "brand_name": "Dominos",
+                                            "item_name": "Pepperoni Pizza",
+                                            "price": "14.99"
+                                        }
+                                    },
+                                    
+                                        {
+                                            "purchase_history": {
+                                                "username": "khushi@gmail.com",
+                                                "purchased_brands": ["Benefit"],
+                                                "hashtags": ["makeup", "beauty", "cosmetics"],
+                                                "items": ["Highlighter", "Concealer", "Bronzer"],
+                                                "caption": "Glowing all day!",
+                                                "url": "https://benefitcosmetics.com",
+                                                "brand_name": "Benefit",
+                                                "item_name": "Highlighter",
+                                                "price": "29.99"
+                                            }
+                                        },
+                                        {
+                                            "purchase_history": {
+                                                "username": "khushi@gmail.com",
+                                                "purchased_brands": ["Whole Foods"],
+                                                "hashtags": ["food", "groceries", "healthyeating"],
+                                                "items": ["Organic Vegetables", "Quinoa", "Avocados"],
+                                                "caption": "Eating clean!",
+                                                "url": "https://wholefoods.com",
+                                                "brand_name": "Whole Foods",
+                                                "item_name": "Organic Vegetables",
+                                                "price": "19.99"
+                                            }
+                                        },
+                                        
+                                            {
+                                                "purchase_history": {
+                                                    "username": "om@gmail.com",
+                                                    "purchased_brands": ["Maybelline"],
+                                                    "hashtags": ["makeup", "beauty", "cosmetics"],
+                                                    "items": ["Lip Gloss", "Eyeliner", "Blush Palette"],
+                                                    "caption": "Feeling fabulous!",
+                                                    "url": "https://maybelline.com",
+                                                    "brand_name": "Maybelline",
+                                                    "item_name": "Lip Gloss",
+                                                    "price": "8.99"
+                                                }
+                                            },
+                                            {
+                                                "purchase_history": {
+                                                    "username": "om@gmail.com",
+                                                    "purchased_brands": ["Chipotle"],
+                                                    "hashtags": ["food", "mexican", "dinner"],
+                                                    "items": ["Burrito", "Tacos", "Guacamole"],
+                                                    "caption": "Mexican feast!",
+                                                    "url": "https://chipotle.com",
+                                                    "brand_name": "Chipotle",
+                                                    "item_name": "Burrito",
+                                                    "price": "8.99"
+                                                }
+                                            }
+                                            
+                                        ]
+                                        
+                                     
+    
