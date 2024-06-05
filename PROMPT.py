@@ -34,10 +34,11 @@ def extract_vendor_website(email):
         return vendor_website
     else:
         return None 
-api_key = "sk-proj-s1k0b50RS7MryE6rY8seT3BlbkFJxA3KLxO2ItqvZ0wSsvUl"
-client = OpenAI(api_key=api_key)
-# api_key = "sk-proj-s1k0b50RS7MryE6rY8seT3BlbkFJxA3KLxO2ItqvZ0wSsvUl"
-# client = OpenAI(api_key=api_key)
+import os
+from dotenv import load_dotenv
+load_dotenv()
+api_key = os.getenv("api_key")
+
 
 product_categories = [
     "Airlines",
