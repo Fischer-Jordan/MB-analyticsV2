@@ -1,0 +1,368 @@
+
+    [
+      {
+        "purchase_history": {
+          "id": 7,
+          "purchase_items": [
+            {
+              "id": 7,
+              "item": {
+                "id": 6,
+                "brand": {
+                  "id": 2,
+                  "name": "Apple",
+                  "logo": null,
+                  "parent_company": null,
+                  "website": null,
+                  "description": "",
+                  "phone": null,
+                  "email": null,
+                  "address": "",
+                  "city": null,
+                  "country": null,
+                  "tax_id": null,
+                  "tax_id_type": null,
+                  "tax_id_country": null,
+                  "tax_id_state": null
+                },
+                "name": "Iphone",
+                "sku_code": "2372873",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "category": null
+              },
+              "is_shared": true,
+              "quantity": 1.0,
+              "unit_price": 8300.0,
+              "total_price": 8300.0,
+              "is_favorite": false,
+              "seller_name": null,
+              "seller_address": null,
+              "seller_email": null,
+              "seller_phone": null,
+              "seller_website": null,
+              "purchase": 7
+            }
+          ],
+          "vendor": {
+            "id": 1,
+            "name": "McDonald",
+            "logo": null,
+            "website": null,
+            "description": "",
+            "phone": null,
+            "email": null,
+            "address": "",
+            "city": null,
+            "country": null,
+            "tax_id": null,
+            "tax_id_type": null,
+            "tax_id_country": null,
+            "tax_id_state": null
+          },
+          "category": { "id": 1, "name": "Food" },
+          "purchase_items_string": "Iphone (1.0) ",
+          "brands_array": [{ "name": "Apple", "logo": null }],
+          "all_items_shared": true,
+          "email_image_url": null,
+          "transaction_id": "3489nd8-3453",
+          "purchase_image": null,
+          "payee_name": "Swathi",
+          "payee_address": "WeWork, Platina Tower, Sikanderpur Metro Station\r\nGround Floor",
+          "payee_email": "om@fischerjordan.com",
+          "payee_phone": "9871587593",
+          "payment_method": "Credit Card",
+          "last_four_digits": "9082",
+          "shipping_amount": 1700.0,
+          "tax_amount": 800.0,
+          "discount_amount": 300.0,
+          "total_amount": 14300.0,
+          "date": "2023-06-24T09:19:51.490206-04:00",
+          "uploaded_at": "2024-03-05T07:25:52.425879-05:00",
+          "is_edited": false,
+          "edited_at": null,
+          "note": "added through api",
+          "source": "manual",
+          "is_deleted": false,
+          "delete_reason": null,
+          "deleted_at": null,
+          "attachment": null
+        }
+      },
+      
+      
+      
+      
+      {
+
+        "purchase_history": {
+            "id": 8,
+            "purchase_items": [
+                {
+                    "id": 1,
+                    "item": {
+                        "id": 1,
+                        "brand": {
+                            "id": 1,
+                            "name": "Britannia",
+                            "logo": null,
+                            "parent_company": null,
+                            "website": "www.britannia.co.in",
+                            "description": "",
+                            "phone": null,
+                            "email": null,
+                            "address": "",
+                            "city": null,
+                            "country": null,
+                            "tax_id": null,
+                            "tax_id_type": null,
+                            "tax_id_country": null,
+                            "tax_id_state": null
+                        },
+                        "name": "Cake",
+                        "sku_code": "9876543",
+                        "description": "Delicious cake for any occasion.",
+                        "category": "Food"
+                    },
+                    "is_shared": true,
+                    "quantity": 1.0,
+                    "unit_price": 200.0,
+                    "total_price": 200.0,
+                    "is_favorite": false,
+                    "seller_name": "Local Supermarket",
+                    "seller_address": "123 Main Street, Cityville",
+                    "seller_email": null,
+                    "seller_phone": null,
+                    "seller_website": null,
+                    "purchase": 1
+                }
+            ],
+            "vendor": {
+                "id": 9,
+                "name": "Britannia",
+                "logo": null,
+                "website": "www.britannia.co.in",
+                "description": "",
+                "phone": null,
+                "email": null,
+                "address": "",
+                "city": null,
+                "country": null,
+                "tax_id": null,
+                "tax_id_type": null,
+                "tax_id_country": null,
+                "tax_id_state": null
+            },
+            "category": { "id": 2, "name": "Food" },
+            "purchase_items_string": "Cake (1.0)",
+            "brands_array": [{ "name": "Britannia", "logo": null }],
+            "all_items_shared": true,
+            "email_image_url": null,
+            "transaction_id": "1234abcd",
+            "purchase_image": null,
+            "payee_name": "Swathi",
+            "payee_address": "WeWork, Platina Tower, Sikanderpur Metro Station Ground Floor",
+            "payee_email": "swathi@fischerjordan.com",
+            "payee_phone": "9871587593",
+            "payment_method": "Credit Card",
+            "last_four_digits": "9082",
+            "shipping_amount": 0.0,
+            "tax_amount": 0.0,
+            "discount_amount": 0.0,
+            "total_amount": 200.0,
+            "date": "2024-03-29T12:00:00.000000-04:00",
+            "uploaded_at": "2024-03-29T12:00:00.000000-04:00",
+            "is_edited": false,
+            "edited_at": null,
+            "note": "Added through API",
+            "source": "manual",
+            "is_deleted": false,
+            "delete_reason": null,
+            "deleted_at": null,
+            "attachment": null
+        }
+    },
+
+
+    
+    {
+        "purchase_history": {
+            "id": 9,
+            "purchase_items": [
+                {
+                    "id": 2,
+                    "item": {
+                        "id": 2,
+                        "brand": {
+                            "id": 3,
+                            "name": "McDonald's",
+                            "logo": null,
+                            "parent_company": null,
+                            "website": "www.mcdonalds.com",
+                            "description": "",
+                            "phone": null,
+                            "email": null,
+                            "address": "",
+                            "city": null,
+                            "country": null,
+                            "tax_id": null,
+                            "tax_id_type": null,
+                            "tax_id_country": null,
+                            "tax_id_state": null
+                        },
+                        "name": "Burger",
+                        "sku_code": "123456",
+                        "description": "Classic burger from McDonald's.",
+                        "category": "Food"
+                    },
+                    "is_shared": true,
+                    "quantity": 1.0,
+                    "unit_price": 150.0,
+                    "total_price": 150.0,
+                    "is_favorite": false,
+                    "seller_name": "McDonald's Outlet",
+                    "seller_address": "456 Oak Street, Townsville",
+                    "seller_email": null,
+                    "seller_phone": null,
+                    "seller_website": null,
+                    "purchase": 2
+                }
+            ],
+            "vendor": {
+                "id": 3,
+                "name": "McDonald's",
+                "logo": null,
+                "website": "www.mcdonalds.com",
+                "description": "",
+                "phone": null,
+                "email": null,
+                "address": "",
+                "city": null,
+                "country": null,
+                "tax_id": null,
+                "tax_id_type": null,
+                "tax_id_country": null,
+                "tax_id_state": null
+            },
+            "category": { "id": 2, "name": "Food" },
+            "purchase_items_string": "Burger (1.0)",
+            "brands_array": [{ "name": "McDonald's", "logo": null }],
+            "all_items_shared": true,
+            "email_image_url": null,
+            "transaction_id": "abcd1234",
+            "purchase_image": null,
+            "payee_name": "Swathi",
+            "payee_address": "WeWork, Platina Tower, Sikanderpur Metro Station Ground Floor",
+            "payee_email": "swathi@fischerjordan.com",
+            "payee_phone": "9871587593",
+            "payment_method": "Credit Card",
+            "last_four_digits": "9082",
+            "shipping_amount": 0.0,
+            "tax_amount": 0.0,
+            "discount_amount": 0.0,
+            "total_amount": 150.0,
+            "date": "2024-03-29T12:00:00.000000-04:00",
+            "uploaded_at": "2024-03-29T12:00:00.000000-04:00",
+            "is_edited": false,
+            "edited_at": null,
+            "note": "Added through API",
+            "source": "manual",
+            "is_deleted": false,
+            "delete_reason": null,
+            "deleted_at": null,
+            "attachment": null
+        }
+    },
+    {
+        "purchase_history": {
+            "id": 10,
+            "purchase_items": [
+                {
+                    "id": 3,
+                    "item": {
+                        "id": 3,
+                        "brand": {
+                            "id": 4,
+                            "name": "Nike",
+                            "logo": null,
+                            "parent_company": null,
+                            "website": "www.nike.com",
+                            "description": "",
+                            "phone": null,
+                            "email": null,
+                            "address": "",
+                            "city": null,
+                            "country": null,
+                            "tax_id": null,
+                            "tax_id_type": null,
+                            "tax_id_country": null,
+                            "tax_id_state": null
+                        },
+                        "name": "Running Shoes",
+                        "sku_code": "NS123",
+                        "description": "Comfortable running shoes from Nike.",
+                        "category": "Apparel"
+                    },
+                    "is_shared": true,
+                    "quantity": 1.0,
+                    "unit_price": 100.0,
+                    "total_price": 100.0,
+                    "is_favorite": false,
+                    "seller_name": "Nike Store",
+                    "seller_address": "789 Elm Street, City Central",
+                    "seller_email": null,
+                    "seller_phone": null,
+                    "seller_website": null,
+                    "purchase": 3
+                }
+            ],
+            "vendor": {
+                "id": 4,
+                "name": "Nike",
+                "logo": null,
+                "website": "www.nike.com",
+                "description": "",
+                "phone": null,
+                "email": null,
+                "address": "",
+                "city": null,
+                "country": null,
+                "tax_id": null,
+                "tax_id_type": null,
+                "tax_id_country": null,
+                "tax_id_state": null
+            },
+            "category": { "id": 3, "name": "Apparel" },
+            "purchase_items_string": "Running Shoes (1.0)",
+            "brands_array": [{ "name": "Nike", "logo": null }],
+            "all_items_shared": true,
+            "email_image_url": null,
+            "transaction_id": "ns9876",
+            "purchase_image": null,
+            "payee_name": "Swathi",
+            "payee_address": "WeWork, Platina Tower, Sikanderpur Metro Station Ground Floor",
+            "payee_email": "swathi@fischerjordan.com",
+            "payee_phone": "9871587593",
+            "payment_method": "Credit Card",
+            "last_four_digits": "9082",
+            "shipping_amount": 0.0,
+            "tax_amount": 0.0,
+            "discount_amount": 0.0,
+            "total_amount": 100.0,
+            "date": "2024-03-29T12:00:00.000000-04:00",
+            "uploaded_at": "2024-03-29T12:00:00.000000-04:00",
+            "is_edited": false,
+            "edited_at": null,
+            "note": "Added through API",
+            "source": "manual",
+            "is_deleted": false,
+            "delete_reason": null,
+            "deleted_at": null,
+            "attachment": null
+        }
+    }
+    
+    
+    
+    
+     
+    ]

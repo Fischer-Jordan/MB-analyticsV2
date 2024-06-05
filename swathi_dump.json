@@ -1,0 +1,886 @@
+[
+    {
+        "purchase_history": {
+            "id": 587,
+            "purchase_items": [
+                {
+                    "id": 1143,
+                    "item": {
+                        "id": 518,
+                        "brand": {
+                            "id": 269,
+                            "name": "LIC of India",
+                            "website": ""
+                        },
+                        "name": "Insurance Premium",
+                        "sku_code": null,
+                        "description": " ",
+                        "category": "Financial Services and Products"
+                    },
+                    "is_shared": true,
+                    "quantity": 1.0,
+                    "unit_price": 292.44,
+                    "total_price": 292.44,
+                    "seller_name": "LIC of India",
+                    "seller_website": "www.LICINDIA.COM",
+                    "purchase": 587
+                }
+            ],
+            "vendor": [
+                {
+                    "id": 138,
+                    "name": "LIC of India"
+                }
+            ],
+            "category": {
+                "id": 53,
+                "name": "Financial Services"
+            },
+            "purchase_items_string": "Insurance Premium (1.0) ",
+            "payee_name": "Akash Bhaskar Sanap",
+            "total_amount": 2292.44,
+            "date": "2024-08-02T00:00:00-04:00"
+        }
+    },
+    {
+        "purchase_history": {
+            "id": 615,
+            "purchase_items": [
+                {
+                    "id": 1203,
+                    "item": {
+                        "id": 560,
+                        "brand": {
+                            "id": 39,
+                            "name": "Amazon",
+                            "website": "http://www.amazon.com"
+                        },
+                        "name": "EC2",
+                        "sku_code": null,
+                        "description": " ",
+                        "category": "Consumer Electronics"
+                    },
+                    "is_shared": false,
+                    "quantity": 643.625556,
+                    "unit_price": 0.0,
+                    "total_price": 0.0,
+                    "seller_name": "AWS",
+                    "seller_website": "https://aws.amazon.com/support",
+                    "purchase": 615
+                },
+                {
+                    "id": 1204,
+                    "item": {
+                        "id": 560,
+                        "brand": {
+                            "id": 39,
+                            "name": "Amazon",
+                            "website": "http://www.amazon.com"
+                        },
+                        "name": "EC2",
+                        "sku_code": null,
+                        "description": " ",
+                        "category": "Consumer Electronics"
+                    },
+                    "is_shared": false,
+                    "quantity": 25.57452916,
+                    "unit_price": 0.0,
+                    "total_price": 0.0,
+                    "seller_name": "AWS",
+                    "seller_website": "https://aws.amazon.com/support",
+                    "purchase": 615
+                }
+            ],
+            "vendor": [
+                {
+                    "id": 150,
+                    "name": "AWS"
+                }
+            ],
+            "category": {
+                "id": 14,
+                "name": "Retail"
+            },
+            "purchase_items_string": "EC2 (643.625556) ,EC2 (25.57452916) ",
+            "payee_name": "Swathi Mohan",
+            "total_amount": 0.0,
+            "date": "2024-03-28T00:00:00-04:00"
+        }
+    },
+   
+    {
+        "purchase_history": {
+            "id": 589,
+            "purchase_items": [
+                {
+                    "id": 1145,
+                    "item": {
+                        "id": 503,
+                        "brand": {
+                            "id": 272,
+                            "name": "Universal",
+                            "website": null
+                        },
+                        "name": "Permanent Self-Adhesive File Folder Labels for Typewriters",
+                        "sku_code": "OFF-LA-5591",
+                        "description": " ",
+                        "category": "Office Supplies and Equipment"
+                    },
+                    "is_shared": true,
+                    "quantity": 2.0,
+                    "unit_price": 5.22,
+                    "total_price": 10.44,
+                    "seller_name": "SuperStore",
+                    "seller_website": null,
+                    "purchase": 589
+                }
+            ],
+            "vendor": [
+                {
+                    "id": 94,
+                    "name": "SuperStore"
+                }
+            ],
+            "category": {
+                "id": 14,
+                "name": "Retail"
+            },
+            "purchase_items_string": "Permanent Self-Adhesive File Folder Labels for Typewriters (2.0) ",
+            "payee_name": "Adam Hart",
+            "total_amount": 11.95,
+            "date": "2024-03-08T02:15:41.306573-05:00"
+        }
+    },
+    {
+        "purchase_history": {
+            "id": 588,
+            "purchase_items": [
+                {
+                    "id": 1144,
+                    "item": {
+                        "id": 503,
+                        "brand": {
+                            "id": 272,
+                            "name": "Universal",
+                            "website": null
+                        },
+                        "name": "Permanent Self-Adhesive File Folder Labels for Typewriters",
+                        "sku_code": "OFF-LA-5591",
+                        "description": " ",
+                        "category": "Office Supplies and Equipment"
+                    },
+                    "is_shared": false,
+                    "quantity": 2.0,
+                    "unit_price": 5.22,
+                    "total_price": 10.44,
+                    "seller_name": "SuperStore",
+                    "seller_website": "www.superstore.com",
+                    "purchase": 588
+                }
+            ],
+            "vendor": [
+                {
+                    "id": 94,
+                    "name": "SuperStore"
+                }
+            ],
+            "category": {
+                "id": 14,
+                "name": "Retail"
+            },
+            "purchase_items_string": "Permanent Self-Adhesive File Folder Labels for Typewriters (2.0) ",
+            "payee_name": "Adam Hart",
+            "total_amount": 11.95,
+            "date": "2024-03-08T02:15:09.961285-05:00"
+        }
+    },
+    {
+        "purchase_history": {
+            "id": 557,
+            "purchase_items": [
+                {
+                    "id": 1078,
+                    "item": {
+                        "id": 492,
+                        "brand": {
+                            "id": 267,
+                            "name": "FAE Beauty",
+                            "website": "www.faebeauty.in"
+                        },
+                        "name": "Glaws Gloss - Giving - Warm Barbie Pink",
+                        "sku_code": "",
+                        "description": " ",
+                        "category": "Personal Care Services"
+                    },
+                    "is_shared": true,
+                    "quantity": 1.0,
+                    "unit_price": 499.0,
+                    "total_price": 499.0,
+                    "seller_name": "FAE Beauty",
+                    "seller_website": "www.faebeauty.in",
+                    "purchase": 557
+                },
+                {
+                    "id": 1079,
+                    "item": {
+                        "id": 493,
+                        "brand": {
+                            "id": 267,
+                            "name": "FAE Beauty",
+                            "website": "www.faebeauty.in"
+                        },
+                        "name": "LIP WHIP - Screw - A Rosewood Brown",
+                        "sku_code": "",
+                        "description": " ",
+                        "category": "Personal Care Services"
+                    },
+                    "is_shared": false,
+                    "quantity": 1.0,
+                    "unit_price": 585.0,
+                    "total_price": 585.0,
+                    "seller_name": "FAE Beauty",
+                    "seller_website": "www.faebeauty.in",
+                    "purchase": 557
+                }
+            ],
+            "vendor": [
+                {
+                    "id": 135,
+                    "name": "Shiprocket"
+                }
+            ],
+            "category": {
+                "id": 14,
+                "name": "Retail"
+            },
+            "purchase_items_string": "Glaws Gloss - Giving - Warm Barbie Pink (1.0) ,LIP WHIP - Screw - A Rosewood Brown (1.0) ",
+            "payee_name": "Swathi Mohan",
+            "total_amount": 1134.0,
+            "date": "2024-02-10T00:00:00-05:00"
+        }
+    },
+    {
+        "purchase_history": {
+            "id": 551,
+            "purchase_items": [
+                {
+                    "id": 1072,
+                    "item": {
+                        "id": 487,
+                        "brand": {
+                            "id": 220,
+                            "name": "littlebox india",
+                            "website": ""
+                        },
+                        "name": "top",
+                        "sku_code": "",
+                        "description": "",
+                        "category": "General Retail Goods"
+                    },
+                    "is_shared": true,
+                    "quantity": 1.0,
+                    "unit_price": 499.0,
+                    "total_price": 499.0,
+                    "seller_name": "Littlebox India",
+                    "seller_website": "littleboxindia.com",
+                    "purchase": 551
+                }
+            ],
+            "vendor": [
+                {
+                    "id": 132,
+                    "name": "Littlebox India"
+                }
+            ],
+            "category": {
+                "id": 5,
+                "name": "Other"
+            },
+            "purchase_items_string": "top (1.0) ",
+            "payee_name": "swathi mohan",
+            "total_amount": 598.0,
+            "date": "2024-02-08T00:00:00-05:00"
+        }
+    },
+    {
+        "purchase_history": {
+            "id": 521,
+            "purchase_items": [],
+            "vendor": [
+                {
+                    "id": 127,
+                    "name": "Sentry"
+                }
+            ],
+            "category": {
+                "id": 67,
+                "name": "Software"
+            },
+            "purchase_items_string": "",
+            "payee_name": "Swathi Mohan",
+            "total_amount": 0.0,
+            "date": "2024-02-06T06:47:20-05:00"
+        }
+    },
+    {
+        "purchase_history": {
+            "id": 578,
+            "purchase_items": [
+                {
+                    "id": 1127,
+                    "item": {
+                        "id": 506,
+                        "brand": {
+                            "id": 53,
+                            "name": "Delta Air Lines",
+                            "website": null
+                        },
+                        "name": "Flight",
+                        "sku_code": null,
+                        "description": " ",
+                        "category": "Airline Tickets"
+                    },
+                    "is_shared": false,
+                    "quantity": 2.0,
+                    "unit_price": 0.0,
+                    "total_price": 114.1,
+                    "seller_name": "Delta Air Lines",
+                    "seller_website": "delta.com",
+                    "purchase": 578
+                }
+            ],
+            "vendor": [
+                {
+                    "id": 42,
+                    "name": "Delta Air Lines"
+                }
+            ],
+            "category": {
+                "id": 47,
+                "name": "Airlines"
+            },
+            "purchase_items_string": "Flight (2.0) ",
+            "payee_name": "RIVKA SALIK",
+            "total_amount": 114.1,
+            "date": "2024-02-04T00:00:00-05:00"
+        }
+    },
+    
+    
+    {
+        "purchase_history": {
+            "id": 469,
+            "purchase_items": [
+                {
+                    "id": 936,
+                    "item": {
+                        "id": 422,
+                        "brand": {
+                            "id": 222,
+                            "name": "Lakme",
+                            "website": null
+                        },
+                        "name": "Lakme Absolute Sculpt Lipstick",
+                        "sku_code": "33",
+                        "description": " ",
+                        "category": "Consumer Electronics"
+                    },
+                    "is_shared": true,
+                    "quantity": 1.0,
+                    "unit_price": 560.0,
+                    "total_price": 560.0,
+                    "seller_name": "Shreyash Retail Private Limited",
+                    "seller_website": "",
+                    "purchase": 469
+                }
+            ],
+            "vendor": [
+                {
+                    "id": 105,
+                    "name": "Shreyash Retail Private Limited"
+                }
+            ],
+            "category": {
+                "id": 14,
+                "name": "Retail"
+            },
+            "purchase_items_string": "Lakme Absolute Sculpt Lipstick (1.0) ",
+            "payee_name": "MADHURIMA MANDAL",
+            "total_amount": 560.0,
+            "date": "2024-01-12T12:04:21.993282-05:00"
+        }
+    },
+    {
+        "purchase_history": {
+            "id": 483,
+            "purchase_items": [],
+            "vendor": [
+                {
+                    "id": 114,
+                    "name": "Cover it up"
+                }
+            ],
+            "category": {
+                "id": 69,
+                "name": "Consumer Electronics"
+            },
+            "purchase_items_string": "",
+            "payee_name": "Swathi Mohan",
+            "total_amount": 0.0,
+            "date": "2024-01-10T00:00:00-05:00"
+        }
+    },
+    {
+        "purchase_history": {
+            "id": 479,
+            "purchase_items": [
+                {
+                    "id": 944,
+                    "item": {
+                        "id": 430,
+                        "brand": {
+                            "id": 229,
+                            "name": "Liquid Planet",
+                            "website": ""
+                        },
+                        "name": "Space Glass Case",
+                        "sku_code": "",
+                        "description": " ",
+                        "category": "Consumer Electronics"
+                    },
+                    "is_shared": false,
+                    "quantity": 1.0,
+                    "unit_price": 0.0,
+                    "total_price": 0.0,
+                    "seller_name": "Cover it up",
+                    "seller_website": "",
+                    "purchase": 479
+                }
+            ],
+            "vendor": [
+                {
+                    "id": 114,
+                    "name": "Cover it up"
+                }
+            ],
+            "category": {
+                "id": 69,
+                "name": "Consumer Electronics"
+            },
+            "purchase_items_string": "Space Glass Case (1.0) ",
+            "payee_name": "Swathi Mohan",
+            "total_amount": 0.0,
+            "date": "2024-01-10T00:00:00-05:00"
+        }
+    },
+    
+    
+    
+    
+    {
+        "purchase_history": {
+            "id": 555,
+            "purchase_items": [
+                {
+                    "id": 1076,
+                    "item": {
+                        "id": 490,
+                        "brand": {
+                            "id": 266,
+                            "name": "Urbanic",
+                            "website": ""
+                        },
+                        "name": "Wide Leg Jeans",
+                        "sku_code": "",
+                        "description": " ",
+                        "category": "General Retail Goods"
+                    },
+                    "is_shared": false,
+                    "quantity": 1.0,
+                    "unit_price": 1990.0,
+                    "total_price": 1990.0,
+                    "seller_name": "Urbanic",
+                    "seller_website": "",
+                    "purchase": 555
+                }
+            ],
+            "vendor": [
+                {
+                    "id": 134,
+                    "name": "Urbanic"
+                }
+            ],
+            "category": {
+                "id": 14,
+                "name": "Retail"
+            },
+            "purchase_items_string": "Wide Leg Jeans (1.0) ",
+            "payee_name": "Swathi Mohan",
+            "total_amount": 1891.0,
+            "date": "2023-12-25T00:00:00-05:00"
+        }
+    },
+    {
+        "purchase_history": {
+            "id": 553,
+            "purchase_items": [
+                {
+                    "id": 1074,
+                    "item": {
+                        "id": 430,
+                        "brand": {
+                            "id": 229,
+                            "name": "Liquid Planet",
+                            "website": ""
+                        },
+                        "name": "Space Glass Case",
+                        "sku_code": "",
+                        "description": " ",
+                        "category": "Consumer Electronics"
+                    },
+                    "is_shared": false,
+                    "quantity": 1.0,
+                    "unit_price": 499.0,
+                    "total_price": 499.0,
+                    "seller_name": "Cover It Up",
+                    "seller_website": "",
+                    "purchase": 553
+                }
+            ],
+            "vendor": [
+                {
+                    "id": 133,
+                    "name": "Cover It Up"
+                }
+            ],
+            "category": {
+                "id": 69,
+                "name": "Consumer Electronics"
+            },
+            "purchase_items_string": "Space Glass Case (1.0) ",
+            "payee_name": "Swathi Mohan",
+            "total_amount": 499.0,
+            "date": "2023-12-25T00:00:00-05:00"
+        }
+    },
+    {
+        "purchase_history": {
+            "id": 362,
+            "purchase_items": [
+                {
+                    "id": 799,
+                    "item": {
+                        "id": 312,
+                        "brand": {
+                            "id": 105,
+                            "name": "YouTube new",
+                            "website": ""
+                        },
+                        "name": "YouTube Premium (Monthly)",
+                        "sku_code": "",
+                        "description": "Software YouTube Premium (Monthly) Renews Dec 29, 2023",
+                        "category": null
+                    },
+                    "is_shared": true,
+                    "quantity": 1.0,
+                    "unit_price": 18.99,
+                    "total_price": 18.99,
+                    "seller_name": null,
+                    "seller_website": null,
+                    "purchase": 362
+                }
+            ],
+            "vendor": [
+                {
+                    "id": 62,
+                    "name": "Apple"
+                }
+            ],
+            "category": {
+                "id": 5,
+                "name": "Other"
+            },
+            "purchase_items_string": "YouTube Premium (Monthly) (1.0) ",
+            "payee_name": "Boaz Salik",
+            "total_amount": 20.68,
+            "date": "2023-12-09T00:00:00-05:00"
+        }
+    },
+    {
+        "purchase_history": {
+            "id": 361,
+            "purchase_items": [
+                {
+                    "id": 798,
+                    "item": {
+                        "id": 311,
+                        "brand": {
+                            "id": 156,
+                            "name": "Streits",
+                            "website": ""
+                        },
+                        "name": "Passover Matzos",
+                        "sku_code": "",
+                        "description": "Food 5 Lb packet of Passover Matzos",
+                        "category": null
+                    },
+                    "is_shared": false,
+                    "quantity": 4.0,
+                    "unit_price": 19.99,
+                    "total_price": 59.96,
+                    "seller_name": null,
+                    "seller_website": null,
+                    "purchase": 361
+                }
+            ],
+            "vendor": [
+                {
+                    "id": 50,
+                    "name": "Vons"
+                }
+            ],
+            "category": {
+                "id": 5,
+                "name": "Other"
+            },
+            "purchase_items_string": "Passover Matzos (4.0) ",
+            "payee_name": "Boaz Salik",
+            "total_amount": 62.46,
+            "date": "2023-12-01T00:00:00-05:00"
+        }
+    },
+    {
+        "purchase_history": {
+            "id": 389,
+            "purchase_items": [],
+            "vendor": [
+                {
+                    "id": 81,
+                    "name": "redBus"
+                }
+            ],
+            "category": {
+                "id": 61,
+                "name": "Public Transportation"
+            },
+            "purchase_items_string": "",
+            "payee_name": "Swathi Mohan",
+            "total_amount": 0.0,
+            "date": "2023-07-18T00:00:00-04:00"
+        }
+    },
+    {
+        "purchase_history": {
+            "id": 387,
+            "purchase_items": [],
+            "vendor": [
+                {
+                    "id": 16,
+                    "name": "Uber"
+                }
+            ],
+            "category": {
+                "id": 61,
+                "name": "Public Transportation"
+            },
+            "purchase_items_string": "",
+            "payee_name": "Swathi Mohan",
+            "total_amount": 43.0,
+            "date": "2023-07-18T00:00:00-04:00"
+        }
+    },
+    {
+        "purchase_history": {
+            "id": 554,
+            "purchase_items": [
+                {
+                    "id": 1075,
+                    "item": {
+                        "id": 489,
+                        "brand": {
+                            "id": 265,
+                            "name": "redBus",
+                            "website": "www.redBus.in"
+                        },
+                        "name": "Bus Ticket - Bangalore-Hyderabad",
+                        "sku_code": "IC512193017263#GDS_07437a27f4f2aa321686665357",
+                        "description": " ",
+                        "category": "Public Transport Tickets"
+                    },
+                    "is_shared": false,
+                    "quantity": 1.0,
+                    "unit_price": 1936.0,
+                    "total_price": 1936.0,
+                    "seller_name": "redBus",
+                    "seller_website": "www.redBus.in",
+                    "purchase": 554
+                }
+            ],
+            "vendor": [
+                {
+                    "id": 81,
+                    "name": "redBus"
+                }
+            ],
+            "category": {
+                "id": 61,
+                "name": "Public Transportation"
+            },
+            "purchase_items_string": "Bus Ticket - Bangalore-Hyderabad (1.0) ",
+            "payee_name": "Swathi Mohan",
+            "total_amount": 1936.0,
+            "date": "2023-06-23T00:00:00-04:00"
+        }
+    },
+    {
+        "purchase_history": {
+            "id": 556,
+            "purchase_items": [
+                {
+                    "id": 1077,
+                    "item": {
+                        "id": 491,
+                        "brand": {
+                            "id": 266,
+                            "name": "Urbanic",
+                            "website": ""
+                        },
+                        "name": "Ruched A-Line Skirt",
+                        "sku_code": "",
+                        "description": " ",
+                        "category": "Clothing Accessories"
+                    },
+                    "is_shared": false,
+                    "quantity": 1.0,
+                    "unit_price": 1290.0,
+                    "total_price": 1290.0,
+                    "seller_name": "Urbanic",
+                    "seller_website": "",
+                    "purchase": 556
+                }
+            ],
+            "vendor": [
+                {
+                    "id": 134,
+                    "name": "Urbanic"
+                }
+            ],
+            "category": {
+                "id": 14,
+                "name": "Retail"
+            },
+            "purchase_items_string": "Ruched A-Line Skirt (1.0) ",
+            "payee_name": "Swathi Mohan",
+            "total_amount": 1290.0,
+            "date": "2023-05-10T00:00:00-04:00"
+        }
+    },
+    {
+        "purchase_history": {
+            "id": 390,
+            "purchase_items": [
+                {
+                    "id": 838,
+                    "item": {
+                        "id": 343,
+                        "brand": {
+                            "id": 5,
+                            "name": "amazon",
+                            "website": ""
+                        },
+                        "name": "Peri Peri Wings",
+                        "sku_code": "",
+                        "description": " ",
+                        "category": null
+                    },
+                    "is_shared": false,
+                    "quantity": 1.0,
+                    "unit_price": 280.0,
+                    "total_price": 280.0,
+                    "seller_name": "The Laughing Buddha",
+                    "seller_website": "",
+                    "purchase": 390
+                }
+            ],
+            "vendor": [
+                {
+                    "id": 82,
+                    "name": "Swiggy"
+                }
+            ],
+            "category": {
+                "id": 62,
+                "name": "Restaurants"
+            },
+            "purchase_items_string": "Peri Peri Wings (1.0) ",
+            "payee_name": "Swathi",
+            "total_amount": 313.0,
+            "date": "2022-12-02T00:00:00-05:00"
+        }
+    },
+    {
+        "purchase_history": {
+            "id": 371,
+            "purchase_items": [
+                {
+                    "id": 812,
+                    "item": {
+                        "id": 322,
+                        "brand": {
+                            "id": 159,
+                            "name": "Bharath Cinemas",
+                            "website": null
+                        },
+                        "name": "Movie Ticket: Ponniyin Selvan - Part 1",
+                        "sku_code": "SCREEN2",
+                        "description": "Movies & TV Shows Movie tickets for Bharath Cinemas",
+                        "category": null
+                    },
+                    "is_shared": false,
+                    "quantity": 3.0,
+                    "unit_price": 200.0,
+                    "total_price": 600.0,
+                    "seller_name": null,
+                    "seller_website": null,
+                    "purchase": 371
+                },
+                {
+                    "id": 813,
+                    "item": {
+                        "id": 323,
+                        "brand": {
+                            "id": 160,
+                            "name": "BookASmile",
+                            "website": null
+                        },
+                        "name": "Donation to BookASmile",
+                        "sku_code": "N/A",
+                        "description": "Other Donation to BookASmile while booking movie tickets",
+                        "category": null
+                    },
+                    "is_shared": false,
+                    "quantity": 3.0,
+                    "unit_price": 1.0,
+                    "total_price": 3.0,
+                    "seller_name": null,
+                    "seller_website": null,
+                    "purchase": 371
+                }
+            ],
+            "vendor": [
+                {
+                    "id": 25,
+                    "name": "BookMyShow"
+                }
+            ],
+            "category": {
+                "id": 66,
+                "name": "Movies & TV Shows"
+            },
+            "purchase_items_string": "Movie Ticket: Ponniyin Selvan - Part 1 (3.0) ,Donation to BookASmile (3.0) ",
+            "payee_name": "Swathi Mohan",
+            "total_amount": 716.28,
+            "date": "2022-10-01T00:00:00-04:00"
+        }
+    }
+]

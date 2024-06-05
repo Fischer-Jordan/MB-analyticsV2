@@ -1,0 +1,208 @@
+[
+    {
+        "purchase_history": {
+            "username": "swathi@gmail.com",
+            "purchased_brands": [
+                "Apple",
+                "Coco Cola",
+                "Britannia"
+            ],
+            "purchased_vendors": [
+                "McDonald",
+                "Nike",
+                "Meghana",
+                "Pizzahut"
+            ],
+            "purchased_items": [
+                "Iphone",
+                "Jeans",
+                "Cake",
+                "Cake"
+            ],
+            "purchased_categories": [
+                "Food",
+                "Shoes"
+            ],
+            "mycaptions": [
+                "New phone",
+                "fav shoes super comfortable",
+                "fav shoes super comfortable",
+                "fav shoes super comfortable",
+                "fav shoes super comfortable",
+                "fav shoes super comfortable",
+                "prettyyyyy",
+                "lovely",
+                "lovely #myfav #lovethis #shoes #newshoes",
+                "Love these jeans",
+                "lovely #myfav #lovethis #shoes #newshoes",
+                "lovely #myfav #lovethis #shoes #newshoes",
+                "lovely #myfav #lovethis #shoes #newshoes",
+                "lovely #myfav #lovethis #shoes #newshoes"
+            ],
+            "mytags": [
+                "tshirts",
+                "clothes",
+                "fashion",
+                "trendy",
+                "shoes",
+                "newshoes",
+                "stylish",
+                "pepsi",
+                "coco cola",
+                "drinks",
+                "jeans",
+                "apple",
+                "iphone",
+                "myfav",
+                "lovethis"
+            ],
+            "liked_brands": [
+                "Apple"
+            ],
+            "liked_captions": [
+                "Love these jeans",
+                "New phone",
+                "Love my new tshirts",
+                "My favourite drink"
+            ],
+            "liked_tags": [
+                "tshirts",
+                "clothes",
+                "fashion",
+                "trendy",
+                "stylish",
+                "pepsi",
+                "coco cola",
+                "drinks",
+                "jeans",
+                "apple",
+                "iphone"
+            ]
+        }
+    },
+    {
+        "purchase_history": {
+            "username": "Om@gmail.com",
+            "purchased_brands": [
+                "Nike",
+                "Apple",
+                "Coco Cola"
+            ],
+            "purchased_vendors": [
+                "Nike",
+                "Meghana",
+                "Dominos"
+            ],
+            "purchased_items": [
+                "Shoes",
+                "Iphone",
+                "Jeans"
+            ],
+            "purchased_categories": [
+                "Shoes",
+                "Beverage",
+                "Entertainment"
+            ],
+            "mycaptions": [
+                "Love them shoes",
+                "My favourite drink"
+            ],
+            "mytags": [
+                "fashion",
+                "trendy",
+                "newshoes",
+                "stylish",
+                "pepsi",
+                "coco cola",
+                "drinks",
+                "apple",
+                "iphone"
+            ],
+            "liked_brands": [
+                "Nike",
+                "Apple"
+            ],
+            "liked_captions": [
+                "Love them shoes",
+                "My favourite drink",
+                "New phone"
+            ],
+            "liked_tags": [
+                "fashion",
+                "trendy",
+                "newshoes",
+                "stylish",
+                "pepsi",
+                "coco cola",
+                "drinks",
+                "apple",
+                "iphone"
+            ]
+        }
+    },
+    {
+        "purchase_history": {
+            "username": "admin@gmail.com",
+            "purchased_brands": [
+                "Nike",
+                "Apple",
+                "Amazon",
+                "Coco Cola"
+            ],
+            "purchased_vendors": [
+                "McDonald",
+                "Nike",
+                "Meghana",
+                "Dominos"
+            ],
+            "purchased_items": [
+                "Tshirts for ski trip",
+                "Apple Ipad",
+                "Skirt",
+                "Drinks"
+            ],
+            "purchased_categories": [
+                "Food",
+                "Shoes",
+                "Electronics",
+                "Beverage"
+            ],
+            "mycaptions": [
+                "Love my new tshirts",
+                "I love my pink skirt",
+                "Love my new iphone"
+            ],
+            "mytags": [
+                "tshirts",
+                "clothes",
+                "fashion",
+                "trendy",
+                "stylish",
+                "pepsi",
+                "coco cola",
+                "drinks",
+                "skirt",
+                "pink",
+                "apple",
+                "iphone"
+            ],
+            "liked_brands": [],
+            "liked_captions": [
+                "Love my new iphone",
+                "I love my pink skirt",
+                "My favourite drink"
+            ],
+            "liked_tags": [
+                "fashion",
+                "stylish",
+                "pepsi",
+                "coco cola",
+                "drinks",
+                "skirt",
+                "pink",
+                "apple",
+                "iphone"
+            ]
+        }
+    }
+]

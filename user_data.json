@@ -1,0 +1,92 @@
+[
+    {
+        "username": "param",
+        "purchase_history": {
+            "username": "param",
+            "purchased_brands": ["Apple", "Samsung"],
+            "purchased_vendors": ["Best Buy", "Apple Store"],
+            "purchased_items": ["iPhone", "Smartwatch"],
+            "purchased_categories": ["Electronics", "Gadgets"],
+            "mycaptions": ["New gadget alert!", "Loving my new phone."],
+            "mytags": ["#tech", "#gadgets"],
+            "liked_brands": ["Apple"],
+            "liked_captions": ["City lights ✨", "Chilling with friends."],
+            "liked_tags": ["#cityscape", "#friends"]
+        }
+    },
+    {
+        "username": "om",
+        "purchase_history": {
+            "username": "om",
+            "purchased_brands": ["Sony", "Bose"],
+            "purchased_vendors": ["Target", "Sony Store"],
+            "purchased_items": ["Headphones", "Speakers"],
+            "purchased_categories": ["Electronics", "Audio"],
+            "mycaptions": ["Music vibes 🎶", "Enjoying the beats."],
+            "mytags": ["#music", "#audio"],
+            "liked_brands": ["Bose"],
+            "liked_captions": ["Beach day!", "Summer vibes ☀️"],
+            "liked_tags": ["#beach", "#summer"]
+        }
+    },
+    {
+        "username": "khushi",
+        "purchase_history": {
+            "username": "khushi",
+            "purchased_brands": ["Meghana", "Dominos", "Pizzahut"],
+            "purchased_vendors": ["Meghana", "Dominos"],
+            "purchased_items": ["Biryani", "Pizza", "Bread"],
+            "purchased_categories": ["Food", "Pizza"],
+            "mycaptions": ["Love to eat!", "Biryani all day"],
+            "mytags": ["#food", "#foodie"],
+            "liked_brands": ["McDonald", "Popeyes"],
+            "liked_captions": ["Loveee Pizza!", "cheesy garlicbread"],
+            "liked_tags": ["#food", "#biryani"]
+        }
+    },
+    {
+        "username": "rohan",
+        "purchase_history": {
+            "username": "rohan",
+            "purchased_brands": ["Apple", "Dell", "HP"],
+            "purchased_vendors": ["Apple Store", "Best Buy"],
+            "purchased_items": ["MacBook", "Monitor", "Printer"],
+            "purchased_categories": ["Electronics", "Computers", "Accessories"],
+            "mycaptions": ["New tech!", "Productivity booster."],
+            "mytags": ["#technology", "#productivity"],
+            "liked_brands": ["Apple", "Dell"],
+            "liked_captions": ["Work mode!", "Coding all night."],
+            "liked_tags": ["#work", "#coding"]
+        }
+    },
+    {
+        "username": "neha",
+        "purchase_history": {
+            "username": "neha",
+            "purchased_brands": ["Sephora", "MAC", "L'Oreal"],
+            "purchased_vendors": ["Sephora", "MAC Store"],
+            "purchased_items": ["Lipstick", "Foundation", "Mascara"],
+            "purchased_categories": ["Beauty", "Makeup"],
+            "mycaptions": ["Makeup game strong!", "Feeling glam."],
+            "mytags": ["#makeup", "#beauty"],
+            "liked_brands": ["Sephora", "L'Oreal"],
+            "liked_captions": ["Glam squad!", "Beauty essentials."],
+            "liked_tags": ["#glam", "#essentials"]
+        }
+    },
+    {
+        "username": "swathi",
+        "purchase_history": {
+            "username": "swathi",
+            "purchased_brands": ["Nike", "Adidas", "Puma"],
+            "purchased_vendors": ["Amazon", "Flipkart"],
+            "purchased_items": ["Running Shoes", "T-shirts", "Backpack"],
+            "purchased_categories": ["Footwear", "Apparel", "Accessories"],
+            "mycaptions": ["Great day for a run!", "New kicks, who dis?"],
+            "mytags": ["#fitness", "#fashion"],
+            "liked_brands": ["Nike", "Adidas"],
+            "liked_captions": ["Awesome view!", "Sunset vibes 🌇"],
+            "liked_tags": ["#nature", "#photography"]
+        }
+    }
+]
