@@ -78,8 +78,8 @@ print('classifer loaded')
 predictions_svm = svm_classifier.predict(X_test)
 print('predicted')
 
-joblib.dump(svm_classifier, 'svm_model_discount.joblib')
-joblib.dump(tfidf_vectorizer, 'tfidf_vectorizer_discount.joblib')
+joblib.dump(svm_classifier, 'modelv3/svm_model_discount.joblib')
+joblib.dump(tfidf_vectorizer, 'modelv3/tfidf_vectorizer_discount.joblib')
 
 print('model dumped')
 # Evaluation

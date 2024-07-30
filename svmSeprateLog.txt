@@ -1,0 +1,64 @@
+nltk downloaded
+read dataset
+vectorization done
+training testing split done
+classifer loaded
+predicted
+model dumped
+SVM Classifier Results:
+              precision    recall  f1-score   support
+
+     invoice       0.91      0.91      0.91        11
+ not_invoice       0.92      0.92      0.92        13
+
+    accuracy                           0.92        24
+   macro avg       0.92      0.92      0.92        24
+weighted avg       0.92      0.92      0.92        24
+
+Accuracy: 0.9166666666666666
+
+Confusion Matrix on Testing dataset:
+                    Predicted invoice  Predicted not_invoice
+Actual invoice                     10                      1
+Actual not_invoice                  1                     12
+training testing split done
+classifer loaded
+predicted
+model dumped
+SVM Classifier Results:
+               precision    recall  f1-score   support
+
+not_promotion       0.70      0.58      0.64        12
+    promotion       0.64      0.75      0.69        12
+
+     accuracy                           0.67        24
+    macro avg       0.67      0.67      0.66        24
+ weighted avg       0.67      0.67      0.66        24
+
+Accuracy: 0.6666666666666666
+
+Confusion Matrix on Testing dataset:
+                      Predicted promotion  Predicted not_promotion
+Actual promotion                        9                        3
+Actual not_promotion                    5                        7
+training testing split done
+classifer loaded
+predicted
+model dumped
+SVM Classifier Results:
+              precision    recall  f1-score   support
+
+    discount       0.57      0.44      0.50         9
+not_discount       0.71      0.80      0.75        15
+
+    accuracy                           0.67        24
+   macro avg       0.64      0.62      0.62        24
+weighted avg       0.66      0.67      0.66        24
+
+Accuracy: 0.6666666666666666
+
+Confusion Matrix on Testing dataset:
+                     Predicted discount  Predicted not_discount
+Actual discount                       4                       5
+Actual not_discount                   3                      12
+

@@ -3,6 +3,7 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 import joblib
 import os
+import numpy as np
 sub1="Fwd: Swissôtel Hotels Reservation Details: 09-Jul-2024"
  
 
@@ -92,7 +93,17 @@ e11="""
 Hey Anthony and Boaz,We’ve debugged the issue with the email classifier (as explained below).This was an oversight on our part after we made improvements to the emailinbox fetching. This issue will not occur again.Best,Param Param Kapur FischerJordan+91 9871587593 param.kapur@fischerjordan.com This e-mail message is intended only for the named recipients above. If youare not an intended recipient of this email, please immediately notify thesender by replying to this email, delete the message and any attachmentsfrom your account, and do not forward or otherwise distribute the messageor any attachments.---------- Forwarded message ---------From: Swathi Mohan Date: Thu, May 16, 2024 at 00:07Subject: Regarding classifierTo: Param Kapur Hey Param,The classifier is working fine now. The issue was that, in thebackend, we were classifying the html content of the email, instead ofthe actual email text. So all the emails were getting classified asspam. I've fixed it and now you'll be able to see the invoices againRegardsSwathi MohanHey Anthony and Boaz, We’ve debugged the issue with the email classifier (as explained below). This was an oversight on our part after we made improvements to the email inbox fetching. This issue will not occur again. Best,Param Param Kapur FischerJordan +91 9871587593 param.kapur@fischerjordan.com This e-mail message is intended only for the named recipients above. If you are not an intended recipient of this email, please immediately notify the sender by replying to this email, delete the message and any attachments from your account, and do not forward or otherwise distribute the message or any attachments.---------- Forwarded message ---------From: Swathi Mohan <swathi.mohan@fischerjordan.com>Date: Thu, May 16, 2024 at 00:07Subject: Regarding classifierTo: Param Kapur <param.kapur@fischerjordan.com>Hey Param,The classifier is working fine now. The issue was that, in thebackend, we were classifying the html content of the email, instead ofthe actual email text. So all the emails were getting classified asspam. I've fixed it and now you'll be able to see the invoices againRegardsSwathi Mohan
 
 """
+edis1 = """
+Dear Swathi,
 
+We've got an amazing deal just for you! [Vendor Name] is thrilled to offer you an unbeatable 50% DISCOUNT on your next purchase. This is a limited-time offer you don't want to miss!
+
+🎉 Why Are We Doing This?
+Because you deserve the best, Swathi! We're so grateful for your support and we want to show our appreciation with this exclusive deal. Don't miss out on this opportunity to save BIG!
+
+🔓 How to Unlock Your Discount:
+It's as easy as 1-2-3! Just follow these steps:
+"""
 def count_emojis(text):
     return emoji.emoji_count(text)
 
@@ -170,6 +181,7 @@ def preprocess(text):
 def classify_subject(new_email):
     # Load the pre-trained model and vectorizer
     svm_model_path =  "svm_model_subject.joblib"
+    #svm_model_path =  "svm_model_subject_discount.joblib"
     tfidf_vectorizer_path = "tfidf_vectorizer_subject.joblib"
     
     loaded_svm_model = joblib.load(svm_model_path)
@@ -204,26 +216,28 @@ def classify_subject(new_email):
     # Make a prediction using the loaded SVM model
     prediction = loaded_svm_model.predict([feature_vector])
     confidence_scores = loaded_svm_model.predict_proba([feature_vector])
-    confidence_invoice = confidence_scores[0][0]*100
-    confidence_spam=confidence_scores[0][1]*100
+    #confidence_invoice = confidence_scores[0][0]*100
+    #confidence_spam=confidence_scores[0][1]*100
     # print('prediction: ', prediction)
     # print(f"confidence %invoice:  {confidence_invoice*100} ")
     # print(f"confidence %spam:  {confidence_spam*100}")
     
     final_prediction = post_process_predictions(new_email, prediction[0], emoji_count)
-
+    
     # unload models
     del loaded_svm_model
     del loaded_tfidf_vectorizer
 
-    return [final_prediction,confidence_invoice, confidence_spam] 
+    return [final_prediction,confidence_scores] # confidence_invoice, confidence_spam] 
 
 
 
 def classify_email(new_email):
     # Load the pre-trained model and vectorizer
-    svm_model_path =  "svm_model_new.joblib"
-    tfidf_vectorizer_path = "tfidf_vectorizer_new.joblib"
+    #svm_model_path =  "svm_model_new.joblib"
+    svm_model_path =  "svm_model_discount.joblib"
+    #tfidf_vectorizer_path = "tfidf_vectorizer_new.joblib"
+    tfidf_vectorizer_path = "tfidf_vectorizer_discount.joblib"
     
     loaded_svm_model = joblib.load(svm_model_path)
     loaded_tfidf_vectorizer = joblib.load(tfidf_vectorizer_path)
@@ -257,8 +271,9 @@ def classify_email(new_email):
     # Make a prediction using the loaded SVM model
     prediction = loaded_svm_model.predict([feature_vector])
     confidence_scores = loaded_svm_model.predict_proba([feature_vector])
-    confidence_invoice = confidence_scores[0][0]*100
-    confidence_spam=confidence_scores[0][1]*100
+    #confidence_scores = loaded_svm_model.decision_function([feature_vector])
+    #confidence_invoice = confidence_scores[0][0]*100
+    #confidence_spam=confidence_scores[0][1]*100
     # print('prediction: ', prediction)
     # print(f"confidence %invoice:  {confidence_invoice*100} ")
     # print(f"confidence %spam:  {confidence_spam*100}")
@@ -269,37 +284,32 @@ def classify_email(new_email):
     del loaded_svm_model
     del loaded_tfidf_vectorizer
 
-    return [final_prediction,confidence_invoice, confidence_spam] 
+    return [final_prediction, confidence_scores] #,confidence_invoice, confidence_spam] 
 
 
 
 def decide(e, sub):
-    prediction_subject, invoice_confidence_subject, spam_confidence_subject=classify_email(e)
-    prediction_email, invoice_confidence_email, spam_confidence_email=classify_subject(sub)
-    if prediction_email == prediction_subject:
-        return prediction_email
-    else:
-        if prediction_subject == 'invoice' and prediction_email == 'spam':
-            if invoice_confidence_subject > spam_confidence_email:
-                return 'invoice'
-            else:
-                return 'spam'
-        elif prediction_subject == 'spam' and prediction_email == 'invoice':
-            if spam_confidence_subject > invoice_confidence_email:
-                return 'spam'
-            else:
-                return 'invoice'
+    predEmail, confScoresEmail=classify_email(e)
+    predSub, confScoresSub=classify_subject(sub)
+    
+    labels=['discount','invoice','promotion','spam']
+    
+    pred = labels[np.argmax(np.max(np.concatenate((confScoresEmail,confScoresSub)),axis=0))]
+    return pred
       
+def classifyPrint(sub1,e1):
+    print('-------------------------------------------')
+    print('SUBJECT: ', sub1)
+    print()
+    print(classify_subject(sub1))
+    print()
+    print('EMAIL: ',e1)
+    print()
+    print(classify_email(e1))
+    print('FINAL DECISION: ', decide(e1,sub1))
+    return decide(e1,sub1)
 
-print('-------------------------------------------')
-print('SUBJECT: ', sub1)
-print()
-print(classify_subject(sub1))
-print()
-print('EMAIL: ',e1)
-print()
-print(classify_email(e1))
-print('FINAL DECISION: ', decide(e1,sub1))
+classifyPrint(sub1,e1)
 
 # print('-------------------------------------------')
 # print('-------------------------------------------')
