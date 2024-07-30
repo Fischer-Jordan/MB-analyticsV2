@@ -1,0 +1,20 @@
+This is notes from when I took over this repo after Swathi.
+There are 2 models v3 and v4. v3 code has been integrated.
+V4 has not been integrated into code yet. 
+Main difference is V4 has seprate models for invoice, discount and promotion.
+What would be better is, take invoice model from V1 or V2 and use discount and promotion model from V4.
+(IIRC V1 or V2 invoice model is better than V3 (but please check))
+
+real_world_examples.csv contains examples where model did not perform well.
+
+svmOnlySI.py is training code used for V2 of model. It is just 
+svm.py with sligtly modified dataset and no Discount and promotion.
+
+svmDIPS.py is just svm.py with different dataset (which was manually labeled)
+
+svmSeparate.py is trains all models seprately. It has seprate invoice model, seprate discount model
+and seprate promotion model. Use only discount and promo model, as this invoice model has lower accuracy than existing model.
+
+rules.py contains an iteration of DIPS (Discount Invoice Promotion Spam) model which uses rules to further classify (idt its used)
+
+harsh-requirements.txt is requirements that worked for my use case
